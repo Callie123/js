@@ -1,0 +1,19 @@
+const animal_signs = new Array('Rat','OX','Tiger','Rabbit','Dragon','Snake','Horse','Sheep','Monkey','Rooster','Dog','Pig',); // 12生肖
+const xz = new Array(
+  'Capricom', // 摩羯
+  'Aquarius', // 水瓶
+  'Pisces', // 双鱼
+  'Aries', // 白羊
+  'Taurus', // 金牛
+  'Gemini', // 双子
+  'Cacer', // 巨蟹
+  'Leo', // 狮子
+  'Virgo', // 处女
+  'Libra', // 天秤
+  'Scorpio', // 天蝎
+  'Sagittarius', // 射手
+  'Capricom', // 摩羯
+);
+this.sx = animal_signs[(year - 1948) % 12]; // 生肖
+// month为真正月份，例如12月份生日，则month =12；
+this.xz = xz[month - (day - 14 < Number('865778999988'.charAt(month)) ? 1 : 0)]; // 星座，
